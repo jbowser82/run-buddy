@@ -240,7 +240,7 @@ body {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
@@ -253,6 +253,10 @@ body {
 
 .trainer img {
   width: 100%;
+}
+
+.trainer-name {
+  color: #fce138;
 }
 
 .trainer-bio {
